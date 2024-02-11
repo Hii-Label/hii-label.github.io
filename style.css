@@ -1,0 +1,65 @@
+nav img {
+  width: 120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.head {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+}
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.box video {
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 90%;
+}
+.header-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content {
+  z-index: 99;
+
+  margin: auto;
+}
+.content h1 {
+  font-size: 50px;
+}
+
+section {
+  padding-top: 130px;
+
+  padding-bottom: 20px;
+  height: 800px;
+}
+
+.font {
+  color: #f26728;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: whitesmoke;
+}
